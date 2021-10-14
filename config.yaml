@@ -1,0 +1,22 @@
+params:
+  epochs: 30
+  batch_size: 32
+  no_classes: 10
+  input_shape: [28,28]
+  loss_function: sparse_categorical_cross_entropy
+  metrics: accuracy
+  optimizer: SGD
+  validation_datasize: 5000
+
+
+
+artifacts:
+  artifacts_dir: artifacts
+  mdeol_dir: mdeol
+  plots_dir: plots
+  chekpoint_dir: chekpoints
+logs:
+  log_dir: logs_dir
+  general_log: general_log
+  tensorboard: tensorboard
+  tensorboard_logs: tensorboard_logs
